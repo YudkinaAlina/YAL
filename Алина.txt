@@ -1,0 +1,14 @@
+Задание 1: 
+xpath=//div[contains(@class, "UnderlineInput") and @data-test-id="option_input"]//input[contains(@class, "Input_input") and @type="text"]
+
+Задание 2:
+xpath=//span[@data-text="Сбросить фильтры"]/ancestor::button
+
+Задание 3:
+xpath=//span[text() = "Поиск данных"]/following-sibling::button или //svg[contains(@id, "close")]/ancestor::button
+
+
+Задание 4:
+xpath=//div[text() = "Работа по стратегии"]/preceding-sibling::div//button[@role="switch"]
+
+
